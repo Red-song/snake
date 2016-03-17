@@ -1,0 +1,54 @@
+body{
+	background:#eee;
+}
+#sence,.senceD{
+	position: absolute;
+	top:10px;
+	left:50%;
+	width: 600px;
+	height: 600px;
+	margin-left:-300px;
+	border:1px solid black;
+	background: black;
+	box-shadow:6px 6px 12px #ccc;
+}
+.senceD{
+	background:rgba(255,255,255,0.3);
+}
+button{
+	position: absolute;
+	top:50%;
+	left:50%;
+	width:100px;
+	height:50px;
+	margin-top: -25px;
+	margin-left: -50px;
+	font-size: 20px;
+	background:#ccc;
+	color:green;
+	transition:all 0.6s ease 0s;
+}
+button:hover{
+	background:#eee;
+}
+
+.block{
+	width:30px;
+	height:30px;
+	background:url(../images/caodi.png);
+	float:left;
+}
+
+
+.tou{
+	background:url(../images/tou.png); 
+	background-size: 100% 100%;
+}
+.body{
+	 background:url(../images/wei.png); 
+	background-size: 100% 100%;
+}
+.apple{
+	 background:url(../images/apple.png);
+	background-size: 100% 100%; 
+}
